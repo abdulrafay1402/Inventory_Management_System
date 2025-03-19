@@ -1,0 +1,86 @@
+🛠 1️⃣ User Authentication Tests
+✅ Test Case 1: Register a New User
+
+Input:
+Username: test_user
+Password: password123
+Expected Output:
+"Registered successfully!"
+User should be saved in users.txt.
+✅ Test Case 2: Sign in with Correct Credentials
+
+Input:
+Username: test_user
+Password: password123
+Expected Output:
+"Login successful!"
+✅ Test Case 3: Sign in with Incorrect Credentials
+
+Input:
+Username: wrong_user
+Password: wrong_pass
+Expected Output:
+"Incorrect Username or Password!"
+📦 2️⃣ Inventory Management Tests
+✅ Test Case 4: Add a New Product
+
+Input:
+ID: 201
+Name: Wireless Mouse
+Price: 25.99
+Quantity: 20
+Expected Output:
+"Product added successfully."
+Product should be saved in inventory.txt.
+✅ Test Case 5: Display Inventory
+
+Action: Run the Display Products option.
+Expected Output:
+List of products should be printed in a table format.
+✅ Test Case 6: Update an Existing Product
+
+Input:
+ID: 201
+New Price: 19.99
+Expected Output:
+"Product updated successfully!"
+✅ Test Case 7: Delete a Product
+
+Input:
+ID: 201
+Expected Output:
+"Product with ID 201 has been deleted."
+Product should be removed from inventory.txt.
+🔍 3️⃣ Searching & Sorting Tests
+✅ Test Case 8: Search for a Product by ID
+
+Input:
+ID: 102
+Expected Output:
+Product details should be displayed.
+✅ Test Case 9: Sort Products by Price
+
+Action: Choose Sort by Price
+Expected Output:
+Products should be listed in ascending order of price.
+💰 4️⃣ Sales & Restocking Tests
+✅ Test Case 10: Record a Sold Product
+
+Input:
+Product ID: 105
+Quantity Sold: 5
+Expected Output:
+Stock count should decrease by 5.
+Items sold count should increase.
+✅ Test Case 11: Restocking Check
+
+Action: Run the Restock Products function.
+Expected Output:
+Displays only products with quantity < 10.
+✅ Test Case 12: Attempt to Sell More Than Available Quantity
+
+Input:
+Product ID: 108
+Quantity Sold: 50
+Expected Output:
+"Not enough stock available."
