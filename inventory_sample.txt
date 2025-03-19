@@ -1,0 +1,12 @@
+# Sample inventory data (ID;Product Name;Price;Quantity;Items Sold)
+
+101;Laptop;799.99;15;3
+102;Mouse;19.99;50;10
+103;Keyboard;49.99;30;5
+104;Monitor;199.99;20;7
+105;Headphones;29.99;40;15
+106;USB Drive;9.99;100;25
+107;Printer;149.99;10;2
+108;Webcam;39.99;25;8
+109;Smartphone;599.99;12;4
+110;Tablet;349.99;18;6
