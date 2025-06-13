@@ -71,6 +71,7 @@ Sold products are deducted from stock, and restocking alerts are displayed.
 - **Bisma**  
 - **Afshal**  
 - **Hussain Bin Inam**  
-📧 Contact: [abdulrafay14021997@gmail.com]
+##📧 Contact:
+- [abdulrafay14021997@gmail.com]
 
 
